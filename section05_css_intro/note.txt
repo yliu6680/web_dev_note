@@ -120,4 +120,36 @@ li:nth-of-type(even) {
 	background-color: rgba(150, 175, 0, .33);
 }
 
-51 52 specificity and the cascade
+51 52 specificity and the cascade (intheritance and specificity)
+
+the order of the css affection.
+
+More spcidicity's style will be the one that shown on the web.
+
+
+resourse: Specificity Calculator
+
+low -> high (more small, more special)
+
+one type selector(li {} )
+
+multiple types selectors( li a {}; li + a{}; )
+
+class (.hello {}; input[type='text']{}; )
+
+id selectors ( #hello {} )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
