@@ -1,0 +1,25 @@
+h1 {
+	color: #00FF00;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 8px dashed yellow;
+}
+li {
+	color: rgb(100,0,150);
+}
+
+h4 {
+	color: #FF1493;
+	background: rgba(255,100,80, .5 );
+}
+
+body {
+	background: rgba(255,100,80, .5 );
+	/*
+	background: url(https://media.licdn.com/dms/image/C4E03AQFu9BhDaXJcnw/profile-displayphoto-shrink_800_800/0?e=1570060800&v=beta&t=gjznJ4zJC4rDRkDl2u5zlQWS80_35lIDWqAb_N34RvQ );
+	background-repeat: no-repeat; 
+	background-size: cover;
+	*/
+
+}

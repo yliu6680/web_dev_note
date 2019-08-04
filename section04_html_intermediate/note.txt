@@ -1,0 +1,109 @@
+28 intro
+
+29 html tables
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<tr> table row
+<td> inside row (column?)
+border attribute
+<th> table heder inside row (will be bolded)
+
+thead tbody make the table more readable
+e.g.
+<table>
+<thead>
+  <tr>
+    <th></th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+
+30 31 pokemon exercise
+
+32 33 34 intro to forms, input tag, form tag
+
+<form action="" method="">
+attr:
+action: where the form to set data to
+method: get(google search) or post request(login)
+
+<input placehoder="default">
+type: different type of data input to the form
+placehoder: the default value will be shown in the form
+name: name of the input; It will make change to the url
+
+<form>
+<input >
+</form>
+
+35 labels
+text to explain the input on web page
+
+<label><input></label>
+or use:
+(label 'for' correspond to the input 'id')
+<label for='usr'>username</label>
+<input type='text' name='username' id='usr'>
+
+36 form validation
+just add require in the end of the input tag
+<input id='' name='' type='' require>
+this require also works for the type validation, like email
+
+37 dropdowns and radio
+3 other ways to get user input
+
+# radio and check box   similar
+<input> type
+radio  couldn't be canceled
+checkbox could be unselected
+
+<form>
+<label for="dogs">Dogs:</label>
+<input name="petChoice" id="dogs" type="radio" value="dog">
+<label for="dogs">Dogs:</label>
+<input name="petChoice" id="dogs" type="radio" value="cat">
+<button>Go !</button>
+</form>
+
+The selection will save the value!
+the input tags with same name could only be selected once!
+the last button tag in the form will be automatically be considered as a submit option for the form
+
+# select tag (option tags in it)
+
+<select>
+<option value = ""></option>
+<option></option>
+<option></option>
+<button></button>
+</select>
+the value attr in the option could be used as the input value to in the form
+
+# textarea tag
+<textarea name="" rows="" cols=""></textarea>
+
+
+38 39 40 forms exercise
+
+
+
+
+

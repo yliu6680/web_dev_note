@@ -1,0 +1,54 @@
+
+doc:
+MDN HTML reference
+
+block level elements vs inline elements
+
+20
+<h1>
+<p>paragraph
+<b> <strong> bold
+<i> <em> italian
+
+21 list
+<ol> order list (will have a number before it)
+<ul> unoder list (no number)
+
+<ol>
+<li></li>
+<li></li>
+...
+</ol>
+could contain each other
+<ul>
+<li></li>
+<li>
+  <ol>
+    <li></li>
+  </ol>
+</li>
+</ul>
+
+22 assignment
+
+23 solution
+
+24 div and span tags
+useful in the style, are generic container
+<div> block level elements
+<span> in line elements
+
+
+25 html attributes
+<tag name='value'></tag>
+
+doc:
+MDN Attribute reference
+
+<img src="" />
+<a href=""></a> !!! need add http:// !!!
+href will link to refernce address
+
+26 27 assignments solutions
+
+

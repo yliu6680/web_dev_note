@@ -1,0 +1,123 @@
+41 objectives
+
+42 css basic
+CSS 
+Cascading Style Sheets
+
+resource CSS ZEN GARDEN
+
+The general rule
+selector {
+	property: value;
+	antherProperty: value;
+}
+
+e,g,
+h1 {
+	color: purple;
+	font-size: 56px;
+}
+
+img {
+	border-color: red;
+	border-width: 3px;
+}
+
+43 Our First Stylesheet
+
+44 nothing 
+
+45 colors
+
+
+1. NAME: HUNDRED OF NAMES
+
+2. Hexadecimal - base 16
+
+#_ _ | _ _ | _ _
+ red  green blue
+
+USE 'COLOR PICKER' WEBSITE
+
+3. RGB - base 10
+rgb(0, 0, 0) 0~255
+
+46 
+
+4. RGBA 
+extra alpha
+rgba(0,0,0,.5)
+alpha = 0.0 ~ 1.0
+
+46 broder and background
+
+47, 48 element, id and class
+
+in the css sheet
+
+1. '#' correspond to the id
+#idname {
+    your styles
+}
+
+will modify the selecter with this specific id
+
+2. '.' correspond to the class
+.classname {
+    your styles
+}
+
+text-decoration: line-through;
+
+
+49 intro to google chrome element check
+click one element, you could check the style sheet for that element, all settings, and you could also change the color on the page for preview, but definitely will not saved. 
+also works for javascripts
+
+50 more advanced selectors
+
+resource the 30 css selectors you must memorize
+
+/*star*/
+
+* {
+	border: 1px solid lightgrey;
+}
+
+/*descendant selector*/
+/*<tag> <inside tag, class>*/
+/*e.g.   "li .hello {}" (all hello class in the li tag)
+		 "li a {}" (all <a> tag inside the li tag)
+*/
+li a {
+	color: red;
+}
+
+/*Adjacent selector*/
+/*h4 with its ***next*** tag (will not work if it has extra tag between the h4 and ul)*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*attribute selector*/
+a[href="http://www.google.com"] {
+	background: pink;
+}
+
+/*
+input[type="check"] {
+	background: color;
+}
+*/
+
+/*nth of type*/
+
+ul:nth-of-type(3) {
+	background-color: rgba(150, 0, 150, .33);
+}
+
+li:nth-of-type(even) {
+	background-color: rgba(150, 175, 0, .33);
+}
+
+51 52 specificity and the cascade
