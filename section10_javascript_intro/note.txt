@@ -1,0 +1,103 @@
+112 intro
+html n.
+css adj.
+javascript v.
+
+1. run js on chrome console
+2. 5 primitive data types in js
+3. define and reference variables  
+4. built in js methods
+
+113 google chrome console
+
+114 115 primitive data types in js
+
+1. 5 primitive datatypes
+2. numbers and operators
+3. strings and common strings methods
+
+comment //
+
+1.
+primitive
+123
+"nihao"
+true false
+null undefined
+
+numeric
+operators:
+modulo: 10 % 3 reminder
+
+string:
+"nihao".length
+"nihao"[0] //js index starts from 0
+
+116 variables
+
+var variable = yourvalue; // type could also be change
+
+name convetion:
+camel case: upper case the other words first character; niHao
+
+117 null and undefined
+
+118 use built-in methods
+// comment  //
+clear() //clear the consel
+
+alert("something")
+
+console.log()
+
+prompt("something") // for user to input. same with the python input()
+
+119 writing javascript in other seperate file
+
+use <script src="file.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,128 @@
+57 texts and fonts
+
+font-family
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+font-size
+
+h1 {
+	font-size: 200px;
+}
+
+em unit:
+means the rate of the pixels of its parent elements font size
+span {
+	font-size: 2.0em;
+}
+ 
+usually set the body font size at first:
+
+<body>
+<h1></h1>
+<p><span></span></p>
+</body>
+
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5.0em;
+}
+
+p {
+	font-size: 2.0em;
+}
+span {
+	font-size: 2.0em;
+}
+
+
+58 More text and fonts
+
+font-weight
+
+p {
+	font-weight: bold;    /* could be 100-800, bold, normal,...*/
+}
+
+line-height
+
+p {
+	line-height: 2;
+}
+
+text-align
+
+h1 {
+	text-align: right;	/* left, center,...*/
+}
+
+text-decoration
+
+p {
+	text-decoration: underline;
+}
+
+h1 {
+	text-decoration: line-through
+}
+
+59 60 custom fonts
+
+google fonts (google.com/fonts#)
+
+click add collection, click use, choose styles, copy links to your website, use the same way as the default fonts (just use the name you reference)
+
+61 introduction to the box model
+
+you could see the box when you check   
+
+in the box model
+four main things we could change 
+content
+padding
+border
+margin
+elements(content) has padding between border and margin
+ 
+p {
+
+/*Content - Width and Height*/
+
+width: 50%;
+/*Border*/
+
+border: 2px solid blue;
+
+/*Padding*/
+
+/*padding: 10px;*/
+padding-left: 40px;
+
+/*Margin*/
+/*margin: 100px;*/
+/*margin-top: 500px;*/
+/*margin: 20px 40px 500px 100px;*/
+/*margin: 0 auto 0 auto;*/
+margin: 0 auto;
+margin: 50px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

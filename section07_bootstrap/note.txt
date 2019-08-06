@@ -1,0 +1,105 @@
+
+72 intro
+
+1. what bootstrap is?
+
+2. include bootstrap: locally or cdn
+
+3. get comfortable using bootstrap
+
+4. form control, nav bars...
+   bootstrap grid system
+
+proj1: ballary
+
+proj2: fictional startup
+
+73 note for different version
+
+74 what's bootstrap
+
+https://getbootstrap.com/docs/3.3/
+
+*CSS 
+botton...
+
+*Components
+navbars...
+
+75 add bootstrap into a project
+
+1. downloaded locally
+differences between normal file and the mininal file: mininal file could be loaded quicker 
+just link the bootstrap.css
+
+2. use the cdn links an external file
+
+e.g. buttons in 75.html
+1. use some classes
+2. use disabled active
+3. use extra style sheet inside the same html to overwrite the original bootstrap attributes
+
+
+
+
+76 forms and inputs
+jumbotron, forms and inputs
+
+1 jumbotron
+see doc
+
+container
+could make things center (some box-model things)
+
+2 forms
+
+1) use the most basic forms template
+
+form-group class:
+spacing
+by default. Wrap labels a nd controls in .form-group for optimum spacing.
+
+form-control class:
+did the style for the object, like padding...
+if remove, the input will become default web browser input
+
+2) use the form-inline class
+
+
+
+77 nav bars
+
+1. need add js and jquery cdn for the dynamic things(like drop down, like hamburger)
+2. 
+after the header class
+add div of class "collapse navbar-collapse"... line to make the navbar could hidden the options depends on the size
+3.
+in the header class add: 
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        	<span class="sr-only">Toggle navigation</span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+        	<span class="icon-bar"></span>
+      		</button>
+this code's data-target attribute in button, corresponds to the id of the collapse navbar-collapse class div in step 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
