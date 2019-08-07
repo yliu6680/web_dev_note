@@ -117,11 +117,25 @@ add rows inside column, fill that row with other columns
 
 
 81 82 Bootstrap galarry part1
-81.html
+file named 81.html
 
+div thumbnail class could add a border for image, and the border will use the gid system setting length or width 
 
+<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> for icon images
 
+make the navbar stay when change size
 
+could add padding between header navbar and body
+
+***
+add masonry to make the various size of images work in grid system
+kind of success, work in the lg, md, sm, but not for xm
+see the 81.html and https://masonry.desandro.com/
+
+83 gallary part2
+
+???specificity
+so couldn't change the navbar text color
 
 
 

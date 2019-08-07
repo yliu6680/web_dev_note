@@ -3,10 +3,33 @@
 <head>
 	<title>Image Gallery</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		body {
+			padding-top: 70px;
+		}
+
+		.jumbotron {
+			color: #2c3e50;
+			background: #ecf0f1;
+		}
+
+		.navbar-inverse {
+			background: #2c3e50;
+		}
+
+		.navbar-inverse .navbar-nav>li>a {
+			color: white;
+		}
+
+		.navbar-inverse .navbar-brand {
+			color: white;
+		}
+
+	</style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -15,7 +38,7 @@
         	<span class="icon-bar"></span>
         	<span class="icon-bar"></span>
       		</button>
-			<a href="#" class="navbar-brand">IMGS</a>
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav">
@@ -32,18 +55,100 @@
 
 <div class="container">
 	<div class="jumbotron">
-		<h1>The Image Gallery</h1>
+		<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Xuanxuan Image Gallery</h1>
 		<p>A pictures gallery built by bootstrap</p>
 	</div>
 
-	<div class="row">
-		<div class="col-lg-4"><img src="../img/WeChat Image_20190730165438.png"></div>
-		<div class="col-lg-4">sfsa</div>
-		<div class="col-lg-4">sfsa</div>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<div class="grid row" data-masonry='{ "itemSelector": ".grid-item" }'>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_20190730165438.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_20190731112643.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">			
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_20190731111912.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_20190731113605.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311119121.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">			
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311119122.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311136054.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311119123.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311119124.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">			
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311119125.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311126431.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311126432.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311136053.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">			
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311126433.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311126434.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311136051.png">
+			</div>
+		</div>
+		<div class="grid-item col-lg-4 col-sm-6">			
+			<div class="thumbnail">
+				<img src="../img/WeChat Image_201907311136052.png">
+			</div>
+		</div>
 	</div>
 
 </div>
-
 
 <script
   src="https://code.jquery.com/jquery-1.12.4.min.js"
