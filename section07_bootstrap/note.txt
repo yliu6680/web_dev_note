@@ -84,13 +84,40 @@ in the header class add:
 this code's data-target attribute in button, corresponds to the id of the collapse navbar-collapse class div in step 2
 
 
+78 79 grid system
+
+each container scales up to 12 columns as the device or viewport seze increases
+
+grid system must be used in the container div tags
+
+see the 79.html for understand
+
+
+80 grid system prt2
+1.understand purpose of grid system   (part1)
+2.understand the 4 different sizes   ***
+3.write nested grids                 ***
+
+4 sizes: use for the responseve features
+very-small small midium large
+col-xs  col-sm  col-md col-lg
+ 
+corresponds to the different break point when you smaller the browser
+
+just use the smaller option if it same with the bigger options
+e.g.
+'col-lg-3 col-md-3 col-sm-6'
+works same with
+'col-md-3 col-sm-6'
+
+write nested grids
+add rows inside column, fill that row with other columns
 
 
 
 
-
-
-
+81 82 Bootstrap galarry part1
+81.html
 
 
 
