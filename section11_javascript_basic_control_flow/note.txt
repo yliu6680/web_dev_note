@@ -1,0 +1,39 @@
+124 unite objectives
+
+javascript control flow 
+conditions 
+loops
+
+125 bollean
+
+130 condition
+
+131 132 loop
+
+dry code
+
+133 while loop ex
+1:39
+the arrow shoe the last excution "num+=2", but the 11 will not be printed out
+
+136 Annoy-O-Matic Code Along
+1. === yes
+using loop when we don't know the exact number of the loop.
+
+2. contain yes
+
+137 138 for loops
+for (init; condition; step){
+	
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS fuctions exercise</title>
+
+	<script type="text/javascript">
+		// var kebabToSname = function(strvar) {
+		// 	if (typeof strvar !== "string") {
+		// 		return "error";
+		// 	}
+
+		// 	for (var i = 0; i < strvar.length; i++ ) {
+		// 		if (strvar[i] === "-") {
+		// 			strvar = strvar.substr(0,i) + "_" + strvar.substr(i+1);
+		// 		}
+		// 	}
+		// 	return strvar;
+		// }
+		var kebabToSnameWithRg = function(strvar) {
+			if (typeof strvar !== "string") {
+				return "error";
+			}
+
+			return strvar.replace(/-/g, "_");
+		}
+		// console.log(kebabToSname("12345677"));
+		// console.log(kebabToSname(12345677));
+		// console.log(kebabToSname("12_234-235-"));
+
+		console.log(kebabToSnameWithRg("use-the-regular-expression"));
+		console.log(kebabToSnameWithRg(12345677));
+		console.log(kebabToSnameWithRg("12_234-235-"));
+
+		var factorial = function(num){
+			var ret = 1;
+			for (var i = 1; i <= num; i++ ) {
+				ret *= i;
+			}
+			return ret;
+		}
+
+		console.log(factorial(5));
+		console.log(factorial(0));
+	</script>
+
+</head>
+<body>
+
+</body>
+</html>

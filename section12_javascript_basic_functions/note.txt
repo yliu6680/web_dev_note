@@ -1,0 +1,84 @@
+142 units
+
+functions, most important in js
+
+1. functions declarationsa and expression
+	2 ways
+
+2. explain differences between console.log and return
+
+3. create functions with multiple arguments
+
+143 functions basic
+# why need functions:
+wraps up and reuse of the code
+
+# functions with no arguments
+execute a function: sayHi();
+refferring a function: sayHi;
+
+144 functions with arguments
+in js, lack of arguments will not stop the code, but just set an udefined in the function
+
+145 146 functions keywords
+
+the undefine keyword in the js console, is just because the js will run the number or other things as variable, but in fact, they are undefine.
+
+Function Declaration vs function expression
+*** Function Expression
+*** another way to define js function
+var capitalize = function(str) {
+  return something
+}
+
+147 148 149 functions exercise
+
+regular expression
+
+str = hello,hi,ok
+*** var str = str.replace(/,/g, "-")
+hello-hi-ok
+
+/<something>/-->the regular expression is between the double "/"
+g--> global search the parttern
+
+150 intro to JS scope
+
+scope is the context that code is executed in
+
+*** function defination's scope:  
+it has its own scope
+higher priority compare with the scope outside the function if the variable name are same, 
+and also change the var outside the function
+
+if you use 'variable = something;' the outside same named var will be changed
+
+but if you use 'var variable = something;' inside the function, the outside same named var will not be affected.
+
+*** in other words
+if you define a new variable in function defination, it will not affect the same named variable outside the defination;
+but if you use the outside same named variable without defined a new one, it will affected the variable outside.
+
+151 exercise for scope
+
+152 Higher Order Functions
+pass functions to other functions
+
+# pass functions will not need to write the () after the function names
+
+# use function(){} as an anonymous function as the input function
+
+e.x. 
+setInterval(function() {
+	console.log("aa");
+	console.log("bb");
+}, 2000);
+
+
+
+
+
+
+
+
+

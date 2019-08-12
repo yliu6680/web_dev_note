@@ -140,7 +140,9 @@ so couldn't change the navbar text color
 
 
 
+85 landing page
+normally, a new tag created by user has the least specificity, so all other bootstrap class object will not be affect by setting color in the body or content
 
+give html height 100% to make the picture all screen in the browser 
 
-
-
+add css shadow

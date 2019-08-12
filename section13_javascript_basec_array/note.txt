@@ -1,0 +1,39 @@
+153 objectives
+1. define array and manipulate data to array
+
+2. utilize built-in array methods
+pop push shift
+
+3. simple project
+only on console
+
+154 Javascript array
+# concepts of array
+
+# code
+# create
+var nums = [1,2,3,4,5];
+# add
+nums[5] = 6;
+nums[10] = 10;
+[1,2,3,4,5,6,undefine,undefine,undefine,10]
+
+# different ways to define array
+var nums = []; //an empty array
+var nunms = new Array(); //uncommon
+
+array can hold any type of data
+
+array.length; // is a property!!
+
+
+
+
+
+
+
+
+
+
+
+
