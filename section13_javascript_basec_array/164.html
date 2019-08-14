@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Solution 164</title>
+	<script type="text/javascript">
+		function reverse(arr){
+			for (var i = arr.length; i > -1; i--){
+				console.log(arr[i]);
+			}
+		}
+		function isUniform(arr){
+			var temp = arr[0];
+			var flag = true;
+			arr.forEach(function(object){
+				if (object !== temp){
+					flag = false;	
+				}
+			})
+			return flag;
+		}
+		function sumArray(arr){
+			var sum = 0;
+			arr.forEach(function(object){
+				sum += object
+			})
+			return sum;
+		}
+		function max(arr){
+			var currmax = arr[0];
+			arr.forEach(function(object){
+				if (object > currmax) {
+					currmax = object;
+				}
+			})
+			return currmax;
+		}
+		Array.prototype.myForEach= function(func){
+			for (var i = 0; i < this.length; i++){
+				func(this[i]);
+			}
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

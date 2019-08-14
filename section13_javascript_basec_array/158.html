@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<script type="text/javascript">
+		window.setTimeout(function() {
+			var todos = ["go home", "play gemes"];
+			var input = prompt("what do you like to do?");
+			while(input !== "quit"){
+				if (input==="list"){
+					todos.forEach(function(todo, i){
+				 		console.log(i + ':' + todo);
+				 	});
+		 		} else if(input==="new"){
+					var newTodo = prompt("Enter nwe todo");
+					todos.push(newTodo);
+				} else if(input === "delete"){
+					var index = prompt("enter index of todo to delete");
+					todos.splice(index,1);
+				}
+				input = prompt("what do you like to do?");
+			}
+			console.log("you quit!");
+		}, 500);
+	</script>
+</head>
+<body>
+<h1>Todo List</h1>
+
+<ul>
+	<li>"new -- add a todo"</li>
+	<li>"list" -- view all todos</li>
+	<li>"quit" -- quit app</li>
+</ul>
+
+</body>
+</html>

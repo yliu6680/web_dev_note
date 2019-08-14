@@ -26,7 +26,88 @@ array can hold any type of data
 
 array.length; // is a property!!
 
+155. Arrays Methods
+javascript documentation source: mdn
 
+# push/pop
+var colors = ["red","green"];
+colors.push("yellow");
+colors
+
+colors.pop();
+colors
+
+
+# shift/unshift
+use unshift to add  to the front of an array, and return the length
+colors.unshift("new");
+
+use shift to remove the first in an array, and get the item
+
+
+# indexOf
+find the index of an tiem in an array (only the first one), return the index
+var colors = ["red","green"];
+
+if not find, return -1
+
+
+# slice
+use slice() to copy parts of an array
+var colors = ["red","green","yellow","blue"];
+colors.slice[0,2]
+return ["red", "green"]
+
+156. quiz
+
+157. 158 a simple to do list page
+
+159 array iteration
+for loop, forEach, compare these two methods
+
+for loop...
+
+forEach   the parameter is a function
+colors.forEach(function(color){
+	color = color + "shit";
+})
+
+160 array itration quiz
+
+161 more on forEach
+In fact, there are 3 arguments in forEach function
+i:index, arr the whole array
+[1,2,3].forEach(function(el, i, arr) {
+  console.log(el, i, arr);
+});
+
+array.slice(index, and_the_length_you_want_to_delete)
+
+162 todo list
+
+163 problem set
+
+164 solution
+
+165 advanced: build a foreach function
+
+js function have the similar property with python
+
+(function(){
+	do something;
+})
+this will only define but not assgin a function to a name
+
+(function(){
+	do something;
+})()
+add a () to execute the function
+
+
+Array.prototype.myForEach = function(func){
+	//your own forEach function, for loop and func(arr[i])
+}
+'this' key word will be the input array, because it's oop.
 
 
 
